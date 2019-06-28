@@ -1,0 +1,10 @@
+J2SDKDIR="/usr/lib/jvm/jdk1.8.0_202" 
+J2REDIR="/usr/lib/jvm/jdk1.8.0_151/jre" 
+JAVA_HOME="/usr/lib/jvm/jdk1.8.0_202" 
+DERBY_HOME="/usr/lib/jvm/jdk1.8.0_202/db"
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+export J2SDKDIR
+export J2REDIR
+export DERBY_HOME
