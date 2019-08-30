@@ -10,5 +10,5 @@ if name == 'root':
    sys.exit()
 
 subprocess.call(["adduser", name])
-subprocess.call(["usermod", "-aG","wheel", name])
+subprocess.call(["usermod", "-aG","sudo", name])
 subprocess.call(["passwd", name])
